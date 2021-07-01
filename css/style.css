@@ -1,0 +1,75 @@
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+.img{
+    border-color: 2px solid #ffc107;
+    height: 440px;
+    width: 285px;
+}
+.bgd{ 
+    margin: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+.hover{
+    color: black;
+    background-color: #f8f9fa;
+}
+.hover:hover{
+    background-color: #ffc107;
+    color: black;
+}
+.but{
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    background-color: #474559;
+    border-radius: 30px;
+}
+.sub{
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    background-color: #ffc107;
+    border-radius: 30px;
+}
+.but a{
+    text-decoration: none;
+    color: white;
+}
+.contact{
+    font-weight: bold;
+    font-size: 40px;
+}
+.arrow{
+    position: fixed;
+    right: 40px;
+    bottom: 80px;
+}
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #474559;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;    
+}
+.edu1{
+    font-weight: bold;
+}
+
+/* animation*************************************************** */
+/* This only changes this particular animation duration */
+.animate__animated.animate__backInLeft {
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
